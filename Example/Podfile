@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FloatLabelTextInput_Example' do
+  pod 'FloatLabelTextInput', :path => '../'
+
+  target 'FloatLabelTextInput_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
