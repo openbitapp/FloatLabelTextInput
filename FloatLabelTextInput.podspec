@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/openbitapp/FloatLabelTextInput'
 
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache License 2.0', :file => 'LICENSE' }
   s.author           = { 'Roberto Casula @ bitapp' => 'roberto.casula@bitapp.it' }
   s.source           = { :git => 'https://github.com/openbitapp/FloatLabelTextInput.git', :tag => s.version.to_s }
 

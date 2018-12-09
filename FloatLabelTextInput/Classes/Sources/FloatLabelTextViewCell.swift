@@ -9,17 +9,27 @@ import UIKit
 import Eureka
 
 
-class FloatLabelTextViewCell: TextAreaCell {
+open class FloatLabelTextViewCell: TextAreaCell {
 
     @IBOutlet weak var floatTextView: FloatLabelTextView!
+    @IBOutlet weak var initialHeightConstraint: NSLayoutConstraint!
 
 
-    override func setup() {
+    override open func setup() {
         floatTextView.delegate = self
         self.textView = floatTextView
         super.setup()
 
-        self.updateConstraints()
+        if let textAreaRow = row as? FloatLabelTextViewRow {
+            switch textAreaRow.textAreaHeight {
+            case .dynamic(let initialHeight):
+                initialHeightConstraint.constant = initialHeight
+                break
+            case .fixed(let cellHeight):
+                initialHeightConstraint.constant = cellHeight
+                break
+            }
+        }
     }
 
     open override func update() {

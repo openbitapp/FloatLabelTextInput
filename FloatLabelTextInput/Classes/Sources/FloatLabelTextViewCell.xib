@@ -16,12 +16,15 @@
             <rect key="frame" x="0.0" y="0.0" width="387" height="128"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="111.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="387" height="127.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQx-As-eXF" customClass="FloatLabelTextView" customModule="FloatLabelTextInput" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="111.5"/>
+                        <rect key="frame" x="16" y="8" width="363" height="111.5"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="111.5" id="ILE-wQ-9Mx"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
@@ -35,7 +38,8 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="floatTextView" destination="kQx-As-eXF" id="RQa-vZ-Hr2"/>
+                <outlet property="floatTextView" destination="kQx-As-eXF" id="qbK-Lq-zeE"/>
+                <outlet property="initialHeightConstraint" destination="ILE-wQ-9Mx" id="drY-2d-3sP"/>
             </connections>
             <point key="canvasLocation" x="137.59999999999999" y="185.30734632683661"/>
         </tableViewCell>
