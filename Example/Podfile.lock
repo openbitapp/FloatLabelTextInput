@@ -1,6 +1,6 @@
 PODS:
   - Eureka (4.3.0)
-  - FloatLabelTextInput (0.1.0):
+  - FloatLabelTextInput (1.0):
     - Eureka (~> 4.3)
 
 DEPENDENCIES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Eureka: 6d711cb30ca333b4bc893110285a722ae3840114
-  FloatLabelTextInput: cee426546aab402a2dd566def27c4170adf95f41
+  FloatLabelTextInput: 03c3e2bc34766ba159aaae322974a68542bfbb88
 
-PODFILE CHECKSUM: f506e344919b6ee377eda6c3cb0673c9a3de5c87
+PODFILE CHECKSUM: d00da436f0bf58d43da48325c3f0b067c71c724f
 
 COCOAPODS: 1.5.3
