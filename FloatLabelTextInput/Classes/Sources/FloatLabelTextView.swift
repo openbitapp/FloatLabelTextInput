@@ -56,7 +56,7 @@ import UIKit
         }
     }
 
-    @IBInspectable var titleTextColour:UIColor = UIColor.gray {
+    @IBInspectable open var titleTextColour:UIColor = UIColor.gray {
         didSet {
             if !isFirstResponder {
                 title.textColor = titleTextColour
