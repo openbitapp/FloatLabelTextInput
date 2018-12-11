@@ -42,13 +42,13 @@ import UIKit
         }
     }
 
-    @IBInspectable var hintYPadding: CGFloat = 0.0 {
+    @IBInspectable open var hintYPadding: CGFloat = 0.0 {
         didSet {
             adjustTopTextInset()
         }
     }
 
-    @IBInspectable var titleYPadding: CGFloat = 0.0 {
+    @IBInspectable open var titleYPadding: CGFloat = 0.0 {
         didSet {
             var r = title.frame
             r.origin.y = titleYPadding
@@ -64,7 +64,7 @@ import UIKit
         }
     }
 
-    @IBInspectable var titleActiveTextColour:UIColor = UIColor.cyan {
+    @IBInspectable open var titleActiveTextColour:UIColor = UIColor.cyan {
         didSet {
             if isFirstResponder {
                 title.textColor = titleActiveTextColour
@@ -72,7 +72,7 @@ import UIKit
         }
     }
 
-    @IBInspectable var placeholderTextColor: UIColor = UIColor.lightGray.withAlphaComponent(0.65) {
+    @IBInspectable open var placeholderTextColor: UIColor = UIColor.lightGray.withAlphaComponent(0.65) {
         didSet {
             if !isFirstResponder {
                 hintLabel.textColor = placeholderTextColor
