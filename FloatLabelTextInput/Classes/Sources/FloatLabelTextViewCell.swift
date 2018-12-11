@@ -11,7 +11,7 @@ import Eureka
 
 open class FloatLabelTextViewCell: TextAreaCell {
 
-    @IBOutlet weak var floatTextView: FloatLabelTextView!
+    @IBOutlet weak public var floatTextView: FloatLabelTextView!
     @IBOutlet weak var initialHeightConstraint: NSLayoutConstraint!
 
 
