@@ -1,7 +1,7 @@
 PODS:
-  - Eureka (4.3.0)
+  - Eureka (5.0.0)
   - FloatLabelTextInput (1.0):
-    - Eureka (~> 4.3)
+    - Eureka (~> 5.0)
 
 DEPENDENCIES:
   - FloatLabelTextInput (from `../`)
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Eureka: 6d711cb30ca333b4bc893110285a722ae3840114
-  FloatLabelTextInput: 03c3e2bc34766ba159aaae322974a68542bfbb88
+  Eureka: 0f64f477ec8ef6201c6fec143d60ff5c201cf654
+  FloatLabelTextInput: b393be534b342c5a8d66b64b4c056a0394388d8f
 
 PODFILE CHECKSUM: d00da436f0bf58d43da48325c3f0b067c71c724f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.3
