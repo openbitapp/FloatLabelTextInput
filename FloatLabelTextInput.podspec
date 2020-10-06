@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FloatLabelTextInput'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'An Eureka row that shows a float label, using expandable text view or standard text field. Inspired by FloatLabelRow'
 
 # This description is used to generate tags and improve search results.
@@ -32,5 +32,5 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'FloatLabelTextInput/Classes/**/*'
 
-  s.dependency 'Eureka', '~> 4.3'
+  s.dependency 'Eureka', '~> 5.0'
 end
